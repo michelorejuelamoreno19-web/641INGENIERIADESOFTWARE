@@ -1,6 +1,5 @@
-public class converter { 
+public class Converter { 
     private String document; 
-
     public void makeLine(){ 
     } 
     public void makeParagraph(){
@@ -9,5 +8,5 @@ public class converter {
     } 
     public String getDocument(){
      return document; 
-    } 
+ } 
 }
