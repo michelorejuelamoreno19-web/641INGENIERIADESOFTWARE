@@ -1,4 +1,4 @@
-public class EjecutarCoverter {
+public class EjecutarConverter {
     public static void main(String[] args) {
         //creacion de los objetos de tipo converter 
     Converter objASCII = new ConverterASCII();
@@ -9,7 +9,9 @@ public class EjecutarCoverter {
     Reader objLector2 = new Reader("TABLE", objPDF);
     Reader objLector3 = new Reader("PARAGRAPH", objPostScript);
 
-
+    objLector1.parseInput();
+    objLector2.parseInput();
+    objLector3.parseInput();
 
 }
     
