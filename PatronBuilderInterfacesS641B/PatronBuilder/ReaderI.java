@@ -2,7 +2,7 @@ public class ReaderI {
     
     //Atributos
     private String element;
-    private ConverterI converter;
+    private Converter I converter;
 
     //Constructor de la clase
     public ReaderI(String element, ConverterI converter){

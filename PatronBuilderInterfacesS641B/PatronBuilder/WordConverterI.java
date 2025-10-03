@@ -1,4 +1,4 @@
-public class WordConverterI implements ConverterI {
+public class WordConverterI implements Converter I {
 
     public void makeLine(){
         System.out.println("Línea con Word");
