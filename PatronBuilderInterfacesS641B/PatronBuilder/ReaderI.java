@@ -10,7 +10,7 @@ public class ReaderI {
         this.converter = converter;
     }
 
-    //Métodos
+    //Métodos 
     public void parseInput(){
         switch (element) {
             case "LINE":
