@@ -5,7 +5,7 @@ public class EjecutarConverter {
     Converter objPostScript = new PostScriptConverter();
     Converter objPDF = new PDFConverter();
 
-    Reader objLector1 = new Reader("LINES", objASCII);
+    Reader objLector1 = new Reader("LINE", objASCII);
     Reader objLector2 = new Reader("TABLE", objPDF);
     Reader objLector3 = new Reader("PARAGRAPH", objPostScript);
 
